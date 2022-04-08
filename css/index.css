@@ -1,0 +1,21 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+#score-card{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+    text-align: center;
+}
+
+.controls{
+    text-align: center;
+}
+
+#potato{
+
+    transition: all 0.5s ease-in-out;
+}
