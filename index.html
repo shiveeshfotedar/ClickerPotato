@@ -18,12 +18,16 @@
         <img src="assets/potato.png" id="potato" onclick="clickedPotato()">
     </div>
     <div class="controls">
-        <button id="add" onclick="soldPotato()">Sell</button>
+        <button onclick="soldPotato()">Sell</button>
     </div>
 
     <div id="MoneyPanel">
         Money
-        <div id="money"></div>
+        <span>$<span id="money">0</span></span>
+    </div>
+    <div id="BuyDoubleClicker">
+        Buy DoubleClicker
+        <button onclick="buyDoubleClicker()">DoubleClicker</button>
     </div>
 
 <script src="js/index.js"></script>
