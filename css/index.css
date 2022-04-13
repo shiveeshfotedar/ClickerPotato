@@ -11,8 +11,12 @@ body {
     text-align: center;
 }
 
-.controls{
-    /* text-align: center; */
+/* .controls{
+    text-align: center;
+} */
+
+.gridly{
+    display: grid;
 }
 
 #potato{
