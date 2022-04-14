@@ -16,6 +16,7 @@ let money = 0
     
     addPotato.onontouchstart = function(){
         addPotato.style.transform = "scale(0.9)"
+        stopPropagation()
     }
     
     addPotato.onontouchstop = function(){
