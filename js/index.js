@@ -14,14 +14,6 @@ let money = 0
         addPotato.style.transform = "scale(1)"
     }
     
-    addPotato.onontouchstart = function(){
-        addPotato.style.transform = "scale(0.9)"
-        stopPropagation()
-    }
-    
-    addPotato.onontouchstop = function(){
-        addPotato.style.transform = "scale(1)"
-    }
     
     
     function addPotatoes(base, adder){
