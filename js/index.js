@@ -13,6 +13,16 @@ let money = 0
     addPotato.onmouseup = function(){
         addPotato.style.transform = "scale(1)"
     }
+    
+    addPotato.onontouchstart = function(){
+        addPotato.style.transform = "scale(0.9)"
+    }
+    
+    addPotato.onontouchstop = function(){
+        addPotato.style.transform = "scale(1)"
+    }
+    
+    
     function addPotatoes(base, adder){
         return base + adder
     }
