@@ -33,7 +33,7 @@ let money = 0
         potatoes = addPotatoes(potatoes, increment)
         score.innerHTML = potatoes
         console.debug(potatoes)
-        if(potatoes > 10000){
+        if(potatoes > 1000){
             alert(" No more potatoes to get")
             potatoes = 0 
             moneyValue = 0
